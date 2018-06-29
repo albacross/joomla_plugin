@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>System - Albacross</name>
+    <author>Albacross</author>
+    <creationDate>July 2018</creationDate>
+    <copyright>Copyright (C) 2018 Albacross.com</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorUrl>https://albacross.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Albacross integration plugin</description>
+    <files>
+        <filename plugin="albacross">albacross.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="customerID" type="text"
+                    description="customerID"
+                    label="Customer ID"
+                />
+            </fieldset>
+
+        </fields>
+    </config>
+</extension>
