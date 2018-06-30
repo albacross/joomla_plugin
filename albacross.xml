@@ -4,9 +4,9 @@
     <author>Albacross</author>
     <creationDate>July 2018</creationDate>
     <copyright>Copyright (C) 2018 Albacross.com</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <license>MIT License; see LICENSE</license>
     <authorUrl>https://albacross.com</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Albacross integration plugin</description>
     <files>
         <filename plugin="albacross">albacross.php</filename>
